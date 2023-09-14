@@ -1,0 +1,41 @@
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.6rem;
+    background-color: var(--color-secondary);
+    font-size: 1.4rem;
+    justify-content: space-between;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.nav-link {
+    color: var(--color-bg);
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: var(--color-light-accent);
+}
+
+.brand {
+    white-space: nowrap;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.brand>svg {
+    fill: var(--color-primary);
+}
+
+.brand>svg:hover {
+    opacity: .9;
+}
